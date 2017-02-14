@@ -84,7 +84,7 @@ ATM following submodules has been added:
 
 * syncserver
 
-  - status:   ``origin/six`` TODO
+  - status:   ``origin/six`` WIP
   - origin:   https://github.com/return42/syncserver  six
   - upstream: https://github.com/mozilla-services/syncserver  master
 

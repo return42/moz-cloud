@@ -8,6 +8,12 @@ git-submodules (listed below). To clone use::
 
   git clone --recursive https://github.com/return42/moz-cloud
 
+The ``git submodule update`` command actually checks out the commit already
+specified in the index of the superproject. To checkout submodules 'six'
+branches, use::
+
+  git submodule foreach git pull origin six
+
 About *Porting Python 2 Code to Python 3* recommendations read:
 
   https://docs.python.org/3/howto/pyporting.html

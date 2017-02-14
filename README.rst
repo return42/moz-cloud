@@ -3,8 +3,10 @@ moz-cloud: Python 2/3 compatibility
 ===================================
 
 This is the parent repository of MozillaCloud's Python 3 movement.  The Py3
-movement itself takes place in the ``origin:six`` feature branch of the
-git-submodules (listed below).
+movement itself takes place in the feature branch ``origin/six`` of the
+git-submodules (listed below). To clone use::
+
+  git clone --jobs 4 --recursive https://github.com/return42/moz-cloud
 
 About *Porting Python 2 Code to Python 3* recommendations read:
 
@@ -46,57 +48,57 @@ ATM following submodules has been added:
 
 * hawkauthlib
 
-  - status:   ``origin:six`` passed Py27 & Py35 tests
+  - status:   ``origin/six`` passed Py27 & Py35 tests
   - origin:   https://github.com/return42/hawkauthlib  six
   - upstream: https://github.com/mozilla-services/hawkauthlib master
 
 * konfig
 
-  - status:   ``origin:six`` passed Py27 & Py35 tests
+  - status:   ``origin/six`` passed Py27 & Py35 tests
   - origin:   https://github.com/return42/konfig  six
   - upstream: https://github.com/mozilla-services/konfig  master
 
 * mozservices
 
-  - status:   ``origin:six`` passed Py27 & Py35 tests
+  - status:   ``origin/six`` passed Py27 & Py35 tests
   - origin:   https://github.com/return42/mozservices  six
   - upstream: https://github.com/mozilla-services/mozservices  master
 
 * PyBrowserID
 
-  - status:   ``origin:six`` passed Py27 & Py35 tests
+  - status:   ``origin/six`` passed Py27 & Py35 tests
   - origin:   https://github.com/return42/PyBrowserID  six
   - upstream: https://github.com/mozilla-services/PyBrowserID  master
 
 * pyramid_hawkauth
 
-  - status:   ``origin:six`` passed Py27 & Py35 tests
+  - status:   ``origin/six`` passed Py27 & Py35 tests
   - origin:   https://github.com/return42/pyramid_hawkauth  six
   - upstream: https://github.com/mozilla-services/pyramid_hawkauth  master
 
 * syncserver
 
-  - status:   ``origin:six`` TODO
+  - status:   ``origin/six`` TODO
   - origin:   https://github.com/return42/syncserver  six
   - upstream: https://github.com/mozilla-services/syncserver  master
 
 * server-syncstorage
 
-  - status:   ``origin:six`` WIP
+  - status:   ``origin/six`` WIP
   - origin:   https://github.com/return42/server-syncstorage  six
   - upstream: https://github.com/mozilla-services/server-syncstorage  master
 
 * tokenlib
 
-  - status:   ``origin:six`` passed Py27 & Py35 tests
+  - status:   ``origin/six`` passed Py27 & Py35 tests
   - origin:   https://github.com/return42/tokenlib  six
   - upstream: https://github.com/mozilla-services/tokenlib  master
 
 * tokenserver
 
-  - status:   ``origin:six`` passed Py27 & Py35 tests
-  - origin:   https://github.com/return42/tokenlib  six
-  - upstream: https://github.com/mozilla-services/tokenlib  master
+  - status:   ``origin/six`` passed Py27 & Py35 tests
+  - origin:   https://github.com/return42/tokenserver  six
+  - upstream: https://github.com/mozilla-services/tokenserver  master
 
 
 Additional repos
@@ -106,12 +108,10 @@ For the Py3 movement, some sub-requirements has to be ported also.
 
 * m2crypto
 
-  - status:   ``origin:six`` passed 95% of Py27 & Py35 tests
-  - origin:   https://github.com/return42/m2crypto six
-  - upstream  https://gitlab.com/m2crypto/m2crypto python3
+  - status:   ``origin/six`` passed 95% of Py27 & Py35 tests
+  - origin:   https://github.com/return42/m2crypto  six
+  - upstream: https://gitlab.com/m2crypto/m2crypto  python3
 
   M2Crypto is needed by PyBrowserID.  The ``origin:six`` branch of M2crypto is
   just a hack for the period of transition. In the long term, we should replace
   M2crypto with https://cryptography.io
-
-

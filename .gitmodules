@@ -1,0 +1,36 @@
+[submodule "hawkauthlib"]
+	path = hawkauthlib
+	url = https://github.com/return42/hawkauthlib
+	branch = six
+[submodule "konfig"]
+	path = konfig
+	url = https://github.com/return42/konfig
+	branch = six
+[submodule "mozservices"]
+	path = mozservices
+	url = https://github.com/return42/mozservices
+	branch = six
+[submodule "PyBrowserID"]
+	path = PyBrowserID
+	url = https://github.com/return42/PyBrowserID
+	branch = six
+[submodule "syncserver"]
+	path = syncserver
+	url = https://github.com/return42/syncserver
+	branch = six
+[submodule "server-syncstorage"]
+	path = server-syncstorage
+	url = https://github.com/return42/server-syncstorage
+	branch = six
+[submodule "tokenlib"]
+	path = tokenlib
+	url = https://github.com/return42/tokenlib
+	branch = six
+[submodule "tokenserver"]
+	path = tokenserver
+	url = https://github.com/return42/tokenserver
+	branch = six
+[submodule "m2crypto"]
+	path = m2crypto
+	url = https://github.com/return42/m2crypto
+	branch = six

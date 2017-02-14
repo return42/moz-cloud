@@ -6,7 +6,7 @@ This is the parent repository of MozillaCloud's Python 3 movement.  The Py3
 movement itself takes place in the feature branch ``origin/six`` of the
 git-submodules (listed below). To clone use::
 
-  git clone --jobs 4 --recursive https://github.com/return42/moz-cloud
+  git clone --recursive https://github.com/return42/moz-cloud
 
 About *Porting Python 2 Code to Python 3* recommendations read:
 

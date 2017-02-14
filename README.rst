@@ -14,6 +14,10 @@ branches, use::
 
   git submodule foreach git pull origin six
 
+To compile the python extension its recommend to install::
+
+  sudo apt-get install build-essential python3-dev python-dev libssl-dev swig
+
 About *Porting Python 2 Code to Python 3* recommendations read:
 
   https://docs.python.org/3/howto/pyporting.html

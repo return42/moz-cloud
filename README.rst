@@ -74,7 +74,7 @@ ATM following submodules has been added:
 
   - status:   ``origin/six`` passed Py27 & Py35 tests
   - origin:   https://github.com/return42/PyBrowserID  six
-  - upstream: https://github.com/mozilla-services/PyBrowserID  master
+  - upstream: https://github.com/mozilla/PyBrowserID  master
 
 * pyramid_hawkauth
 

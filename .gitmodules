@@ -34,3 +34,7 @@
 	path = m2crypto
 	url = https://github.com/return42/m2crypto
 	branch = six
+[submodule "pyramid_hawkauth"]
+	path = pyramid_hawkauth
+	url = https://github.com/return42/pyramid_hawkauth
+	branch = six

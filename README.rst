@@ -2,7 +2,12 @@
 moz-cloud: Python 2/3 compatibility
 ===================================
 
-This is the parent repository of MozillaCloud's Python 3 movement.  The Py3
+The *Mozilla cloud services* are a scalable infrastructure of interoperable
+services. About *Mozilla cloud Services* read:
+
+  https://docs.services.mozilla.com
+
+This is the parent repository of Mozilla-Cloud's Python 3 movement.  The Py3
 movement itself takes place in the feature branch ``origin/six`` of the
 git-submodules (listed below). To clone use::
 

@@ -63,8 +63,8 @@ ATM following submodules has been added:
 
 * hawkauthlib
 
-  - status:   ``origin/six`` passed Py27 & Py35 tests
-  - origin:   https://github.com/return42/hawkauthlib  six
+  - status:   merged upstream
+  - old-origin:   https://github.com/return42/hawkauthlib  six
   - upstream: https://github.com/mozilla-services/hawkauthlib master
 
 * konfig

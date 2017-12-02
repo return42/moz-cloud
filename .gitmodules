@@ -1,7 +1,7 @@
 [submodule "hawkauthlib"]
 	path = hawkauthlib
-	url = https://github.com/return42/hawkauthlib
-	branch = six
+	url = https://github.com/mozilla-services/hawkauthlib.git
+	branch = master
 [submodule "konfig"]
 	path = konfig
 	url = https://github.com/return42/konfig

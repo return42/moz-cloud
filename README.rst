@@ -63,15 +63,27 @@ ATM following submodules has been added:
 
 * hawkauthlib
 
-  - status:   merged upstream
+  - status:   merged `upstream <https://github.com/mozilla-services/hawkauthlib/commit/9ddcce>`_
   - old-origin:   https://github.com/return42/hawkauthlib  six
   - upstream: https://github.com/mozilla-services/hawkauthlib master
 
+* tokenlib
+
+  - status:   ``origin/six`` `PR <https://github.com/mozilla-services/tokenlib/pull/5>`_
+  - origin:   https://github.com/return42/tokenlib  six
+  - upstream: https://github.com/mozilla-services/tokenlib  master
+
 * konfig
 
-  - status:   ``origin/six`` passed Py27 & Py35 tests
+  - status:   ``origin/six`` `PR <https://github.com/mozilla-services/konfig/pull/17>`_
   - origin:   https://github.com/return42/konfig  six
   - upstream: https://github.com/mozilla-services/konfig  master
+
+* pyramid_hawkauth
+
+  - status:   ``origin/six`` passed Py27 & Py35 tests
+  - origin:   https://github.com/return42/pyramid_hawkauth  six
+  - upstream: https://github.com/mozilla-services/pyramid_hawkauth  master
 
 * mozservices
 
@@ -85,12 +97,6 @@ ATM following submodules has been added:
   - origin:   https://github.com/return42/PyBrowserID  six
   - upstream: https://github.com/mozilla/PyBrowserID  master
 
-* pyramid_hawkauth
-
-  - status:   ``origin/six`` passed Py27 & Py35 tests
-  - origin:   https://github.com/return42/pyramid_hawkauth  six
-  - upstream: https://github.com/mozilla-services/pyramid_hawkauth  master
-
 * syncserver
 
   - status:   ``origin/six`` WIP
@@ -102,12 +108,6 @@ ATM following submodules has been added:
   - status:   ``origin/six`` WIP
   - origin:   https://github.com/return42/server-syncstorage  six
   - upstream: https://github.com/mozilla-services/server-syncstorage  master
-
-* tokenlib
-
-  - status:   ``origin/six`` passed Py27 & Py35 tests
-  - origin:   https://github.com/return42/tokenlib  six
-  - upstream: https://github.com/mozilla-services/tokenlib  master
 
 * tokenserver
 

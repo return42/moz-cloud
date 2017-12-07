@@ -13,12 +13,6 @@ git-submodules (listed below). To clone use::
 
   git clone --recursive https://github.com/return42/moz-cloud
 
-The ``git submodule update`` command actually checks out the commit already
-specified in the index of the superproject. To checkout submodules 'six'
-branches, use::
-
-  git submodule foreach git pull origin six
-
 To compile the python extension its recommend to install::
 
   sudo apt-get install build-essential python3-dev python-dev libssl-dev swig
@@ -29,7 +23,7 @@ About *Porting Python 2 Code to Python 3* recommendations read:
 
 Porting all this repos is a lot of work. To be more productive, a uniform
 *boilerplate* has been added to all the ported MozillaCloud components listed
-here. For this, the *boilerplate* brings and uniform build/deploy/test/debug
+here. For this, the *boilerplate* brings and uniform build/deploy/test
 environment, which builds and runs tests in isolated Py2 and Py3
 *virtualenv*. The tests are running completely on developer's local workstation
 (CI without remotes). Such a *boilerplate* assembles from::
@@ -37,13 +31,13 @@ environment, which builds and runs tests in isolated Py2 and Py3
   virtualenv --> providing isolated environments for builds
   pylint     --> providing lint
   tox        --> providing automated tests locally
+  pytest     --> providing the test framework
 
 To be convenient, mostly a Makefile provide some targets.::
 
   build      - build virtualenv (./local/py3) and install *developer mode*
   lint       - run pylint within "build" (developer mode)
   test       - run tests for all supported environments (tox)
-  debug      - run tests within a PDB debug session
   dist       - build packages in "dist/"
   pypi       - upload "dist/*" files to PyPi
   clean-dist - remove most generated files

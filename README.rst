@@ -69,7 +69,7 @@ ATM following submodules has been added:
 
 * konfig
 
-  - status:   ``origin/six`` `PR <https://github.com/mozilla-services/konfig/pull/17>`_
+  - status:   merged `upstream <https://github.com/mozilla-services/konfig/commit/cc09321d>`_
   - origin:   https://github.com/return42/konfig  six
   - upstream: https://github.com/mozilla-services/konfig  master
 

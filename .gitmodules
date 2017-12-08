@@ -2,10 +2,6 @@
 	path = hawkauthlib
 	url = https://github.com/mozilla-services/hawkauthlib.git
 	branch = master
-[submodule "konfig"]
-	path = konfig
-	url = https://github.com/return42/konfig
-	branch = six
 [submodule "mozservices"]
 	path = mozservices
 	url = https://github.com/return42/mozservices
@@ -38,3 +34,6 @@
 	path = pyramid_hawkauth
 	url = https://github.com/return42/pyramid_hawkauth
 	branch = six
+[submodule "konfig"]
+	path = konfig
+	url = https://github.com/mozilla-services/konfig.git

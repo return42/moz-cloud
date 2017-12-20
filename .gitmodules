@@ -2,6 +2,14 @@
 	path = hawkauthlib
 	url = https://github.com/mozilla-services/hawkauthlib.git
 	branch = master
+[submodule "konfig"]
+	path = konfig
+	url = https://github.com/mozilla-services/konfig.git
+	branch = master
+[submodule "tokenlib"]
+	path = tokenlib
+	url = https://github.com/mozilla-services/tokenlib.git
+	branch = master
 [submodule "mozservices"]
 	path = mozservices
 	url = https://github.com/return42/mozservices
@@ -18,10 +26,6 @@
 	path = server-syncstorage
 	url = https://github.com/return42/server-syncstorage
 	branch = six
-[submodule "tokenlib"]
-	path = tokenlib
-	url = https://github.com/return42/tokenlib
-	branch = six
 [submodule "tokenserver"]
 	path = tokenserver
 	url = https://github.com/return42/tokenserver
@@ -34,6 +38,3 @@
 	path = pyramid_hawkauth
 	url = https://github.com/return42/pyramid_hawkauth
 	branch = six
-[submodule "konfig"]
-	path = konfig
-	url = https://github.com/mozilla-services/konfig.git

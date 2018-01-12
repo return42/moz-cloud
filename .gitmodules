@@ -36,5 +36,4 @@
 	branch = six
 [submodule "pyramid_hawkauth"]
 	path = pyramid_hawkauth
-	url = https://github.com/return42/pyramid_hawkauth
-	branch = six
+	url = https://github.com/mozilla-services/pyramid_hawkauth.git

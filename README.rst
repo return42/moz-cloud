@@ -75,7 +75,7 @@ ATM following submodules has been added:
 
 * pyramid_hawkauth
 
-  - status:   ``origin/six`` `PR <https://github.com/mozilla-services/pyramid_hawkauth/pull/2>`_
+  - status:   merged `upstream <https://github.com/mozilla-services/pyramid_hawkauth/commit/d83291d>`_
   - origin:   https://github.com/return42/pyramid_hawkauth  six
   - upstream: https://github.com/mozilla-services/pyramid_hawkauth  master
 

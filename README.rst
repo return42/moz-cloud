@@ -117,10 +117,7 @@ For the Py3 movement, some sub-requirements has to be ported also.
 
 * m2crypto
 
-  - status:   ``origin/six`` passed 95% of Py27 & Py35 tests
-  - origin:   https://github.com/return42/m2crypto  six
-  - upstream: https://gitlab.com/m2crypto/m2crypto  python3
+  - status: Version 0.28.0 or newer support Python 2.7 and 3.3-3.6
 
-  M2Crypto is needed by PyBrowserID.  The ``origin:six`` branch of M2crypto is
-  just a hack for the period of transition. In the long term, we should replace
+  M2Crypto is needed by PyBrowserID. In the long term, we should replace
   M2crypto with https://cryptography.io
